@@ -48,7 +48,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginRight="15dp"
-                android:src="@drawable/ic_mobile_flag" />
+                android:src="@drawable/portrait" />
 
             <EditText
                 android:id="@+id/et_mobile"
@@ -60,7 +60,7 @@
                 android:inputType="textVisiblePassword"
                 android:maxLength="11"
                 android:singleLine="true"
-                android:text=""
+                android:text="admin"
                 android:textColor="@color/color_999999"
                 android:textColorHint="@color/color_999999"
                 android:textSize="14dp" />
@@ -100,11 +100,12 @@
                 android:layout_height="55dp"
                 android:layout_weight="1"
                 android:background="@null"
+
                 android:hint="@string/hint_login_password"
                 android:inputType="textPassword"
                 android:maxLength="30"
                 android:singleLine="true"
-                android:text=""
+                android:text="123456"
                 android:textColor="@color/color_999999"
                 android:textColorHint="@color/color_999999"
                 android:textSize="14dp" />

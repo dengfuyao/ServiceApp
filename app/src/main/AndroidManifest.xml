@@ -15,7 +15,7 @@
         android:name=".application.MyAppLiacation"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".activity.MainActivity"
+        <activity android:name=".activity.LoginActivity"
                   android:launchMode="singleTask"
                   android:screenOrientation="portrait"
                   android:theme="@style/AppTheme.NoActionBar"
@@ -46,11 +46,11 @@
         <!--卡详情-->
         <activity android:name=".activity.CardDetailsActivity"></activity>
         <activity android:name=".activity.TerminateActivity"></activity>
-       <!-- <activity android:name=".activity.MainActivity"
+        <activity android:name=".activity.MainActivity"
                   android:launchMode="singleTask"
                   android:screenOrientation="portrait"
                   android:theme="@style/AppTheme.NoActionBar"
-        ></activity>-->
+        ></activity>
         <activity android:name=".activity.UserIdTerminationCardActivity">
         </activity>
     </application>
