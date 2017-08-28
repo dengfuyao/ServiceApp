@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+    <TextView
+        android:text="请刷卡"
+        android:layout_width="wrap_content"
+              android:layout_height="wrap_content"/>
+
+    <ScrollView
+
+        android:id="@+id/scrollView"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@android:drawable/edit_text" >
+
+        <LinearLayout
+          android:layout_gravity="center"
+            android:id="@+id/ll_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:gravity="center"
+                android:id="@+id/promt"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:textColor="#fbf5f910"
+                android:text="@string/info"
+                android:scrollbars="vertical"/>
+            <ImageView
+                android:src="@mipmap/shouji"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_gravity="center"
+                android:textColor="@color/red"
+                android:text="注意: 华为手机请将卡贴近摄像头附近"
+                android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"/>
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,50 @@
+<resources>
+    <string name="app_name">服务App</string>
+    <string name="input_name">请输入姓名</string>
+    <string name="input_userid">请输入身份证号码</string>
+    <string name="input_address">请输入居住地址</string>
+    <string name="input_phone_no">请输入手机号码</string>
+    <string name="open_card">开卡</string>
+    <string name="info">请将卡片贴到图标位置</string>
+
+    <string name="error">Error</string>
+    <string name="no_nfc">No NFC found on this device</string>
+    <string name="nfc_disabled">NFC is not enabled. Please go to the wireless settings to enable it.</string>
+    <string name="recharge_cash_pledge">充值押金</string>
+    <string name="recharge_cancel">取消</string>
+    <string name="wechat_recharge">微信充值</string>
+    <string name="alipay_recharge">支付宝充值</string>
+    <string name="money_recharge">现金充值</string>
+    <string name="complete">完成</string>
+    <string name="card_deposit">押金 :</string>
+    <string name="card_balance">卡余额 :</string>
+    <string name="realName">用户名 :</string>
+    <string name="mobilePhone">电话 :</string>
+    <string name="open_card_succeed">开卡成功</string>
+    <string name="card_exist">此卡已经存在</string>
+    <string name="recharge">充值</string>
+    <string name="card_id">序号 :</string>
+    <string name="card_no">卡号 :</string>
+    <string name="card_cid">芯片号 :</string>
+    <string name="sequence_no">序列号 :</string>
+    <string name="card_state">状态 :</string>
+    <string name="createDate">开卡日期 :</string>
+    <string name="loss_of">挂失</string>
+    <string name="lock">挂失</string>
+    <string name="unlock">解挂</string>
+    <string name="go_back">返回</string>
+    <string name="cancel">注销</string>
+    <string name="termaintion">注销</string>
+    <string name="hint_login_username">请输入手机号码</string>
+    <string name="hint_login_password">输入密码</string>
+    <string name="login">登录</string>
+    <string name="login_forget_pwd">忘记密码</string>
+    <string name="please_input_limit_pwd">请输入数字或字母</string>
+
+    <string-array name="titles">
+        <item>开卡</item>
+        <item>充值</item>
+        <item>挂失/解挂</item>
+        <item>注销</item>
+    </string-array>
+</resources>

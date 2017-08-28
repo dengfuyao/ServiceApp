@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            style="@style/CardTextStyle"
+            android:text="卡号:"
+            android:textSize="20sp"/>
+        <TextView
+            android:id="@id/card_no"
+            style="@style/CardTextStyle"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            style="@style/CardTextStyle"
+            android:text="@string/card_state"
+        />
+        <TextView
+            android:id="@id/card_state"
+            style="@style/CardTextStyle"/>
+    </LinearLayout>
+
+</LinearLayout>

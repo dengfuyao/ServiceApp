@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:id="@+id/ll_popwindow"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content">
+    <RadioGroup
+        android:gravity="center_horizontal"
+        android:layout_gravity="center_vertical"
+
+        android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+        <Button
+            android:layout_marginTop="20dp"
+            android:text="@string/wechat_recharge"
+            android:id="@id/wechat_recharge"
+            android:layout_width="200dp"
+                     android:layout_height="wrap_content"/>
+
+        <Button
+            android:layout_marginTop="20dp"
+            android:text="@string/alipay_recharge"
+            android:id="@id/alipay_recharge"
+            android:layout_width="200dp"
+                     android:layout_height="wrap_content"/>
+
+        <Button
+            android:layout_marginTop="20dp"
+            android:text="@string/money_recharge"
+            android:id="@id/money_recharge"
+            android:layout_width="200dp"
+                     android:layout_height="wrap_content"/>
+        <Button
+            android:layout_marginTop="20dp"
+            android:text="@string/recharge_cancel"
+            android:id="@id/money_recharge"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"/>
+    </RadioGroup>
+
+</LinearLayout>

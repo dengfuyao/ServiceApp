@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.flyingogo.serviceapp">
+
+    <uses-permission android:name="android.permission.NFC"/>
+    <uses-permission android:name="android.permission.INTERNET"></uses-permission>
+    <!-- 权限 -->
+
+    <!-- 是否支持谷歌什么硬件一般可以忽略 -->
+    <uses-feature android:name="android.hardware.nfc" />
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:name=".application.MyAppLiacation"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".activity.MainActivity"
+                  android:launchMode="singleTask"
+                  android:screenOrientation="portrait"
+                  android:theme="@style/AppTheme.NoActionBar"
+                >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".activity.ReadCardActivity"
+        android:theme="@style/AppTheme"
+        >
+            <intent-filter>
+                <action android:name="android.nfc.action.TECH_DISCOVERED" />
+                <!-- 添加这一条默认设置，能拦截当前页面所有扫描NFC的配置 -->
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+
+        </activity>
+
+        <activity android:name=".activity.WebViewActivity"
+                  android:screenOrientation="portrait"/>
+        <activity android:name=".activity.RechargeActivity"
+                  android:screenOrientation="portrait"
+        >
+        </activity>
+        <!--卡详情-->
+        <activity android:name=".activity.CardDetailsActivity"></activity>
+        <activity android:name=".activity.TerminateActivity"></activity>
+       <!-- <activity android:name=".activity.MainActivity"
+                  android:launchMode="singleTask"
+                  android:screenOrientation="portrait"
+                  android:theme="@style/AppTheme.NoActionBar"
+        ></activity>-->
+        <activity android:name=".activity.UserIdTerminationCardActivity">
+        </activity>
+    </application>
+
+</manifest>

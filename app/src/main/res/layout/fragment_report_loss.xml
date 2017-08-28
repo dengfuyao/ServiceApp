@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+    <TextView
+        android:layout_marginTop="10dp"
+        android:text="挂失/解挂"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:id="@id/input_userid"
+        android:inputType="number"
+        style="@style/EditTextStyle"
+        android:hint="请输入你的身份证号码"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:visibility="gone"
+
+        android:id="@id/query_card_no"
+        android:layout_marginTop="35dp"
+        android:text="查询用户卡"
+        android:textSize="20sp"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/bt_bg_select"
+        android:layout_width="200dp"
+            android:layout_height="wrap_content"/>
+    <TextView
+        android:layout_marginTop="10dp"
+        android:text="请选择要操作的卡号:"
+        android:layout_width="match_parent"
+              android:layout_height="wrap_content"/>
+    <ListView
+        android:layout_marginTop="10dp"
+        android:id="@id/card_list"
+        android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    </ListView>
+</LinearLayout>
